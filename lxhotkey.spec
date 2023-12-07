@@ -18,6 +18,7 @@ Source0:	https://github.com/lxde/lxhotkey/archive/%{?snapshot:%{commit}}%{!?snap
 BuildRequires:	desktop-file-utils
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(libfm)
+BuildRequires:  pkgconfig(libfm-extra)
 
 %description
 Lightweight global keyboard shortcuts configurator.
