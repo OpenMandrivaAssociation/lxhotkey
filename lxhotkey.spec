@@ -1,5 +1,5 @@
 # git snapshot
-%global snapshot 1
+#global snapshot 1
 %if 0%{?snapshot}
 	%global commit		09bfd852313635006cae7aab0c2cb2a76eab0b0b
 	%global commitdate	20240817
@@ -8,8 +8,8 @@
 
 Summary:	A lightweight global keyboard shortcuts configurator
 Name:		lxhotkey
-Version:	0.1.1
-Release:	2
+Version:	0.1.2
+Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Other
 Url:		https://lxde.sourceforge.net/
